@@ -145,7 +145,7 @@
     }
   ],
 
-  "certificates": [
+ "certificates": [
   {
     "title": "WISER Summer Program 2026: What Is the Future of Optimization? Classical + AI + Quantum",
     "issuer": "WISER",
@@ -157,49 +157,49 @@
     "title": "IBM Quantum Excellence Badge — QGSS 2025",
     "issuer": "IBM Quantum",
     "date": "2025",
-    "image": "",
+    "image": "/assets/QiskitGlobalSummerSchool2025-QuantumExcellence_Badge20250828-31-uqx3s8-1.png",
     "verifyUrl": "https://www.credly.com/badges/843d53d1-5808-4560-9297-6bb57ab0b4a7/public_url"
   },
   {
     "title": "WISER Global Quantum Badge 2025",
     "issuer": "WISER",
     "date": "2025",
-    "image": "",
+    "image": "/assets/QGSS2025.png",
     "verifyUrl": "https://www.virtualbadge.io/certificate-validator?credential=2ea6817f-2ff0-45b6-ad85-65d0d18c6cccl"
   },
   {
     "title": "Quantum Algorithms to Solve Partial Differential Equations — Module 2",
     "issuer": "WISER and Womanium Quantum Program",
     "date": "2025",
-    "image": "",
+    "image": "/assets/Module2. Quantum Algorithms to solve Partial Differential Equations-1.png",
     "verifyUrl": "https://www.virtualbadge.io/certificate-validator?credential=c5902659-a737-4426-bc17-cf091e2e2c23"
   },
   {
     "title": "Quantum Algorithms for Nonlinear Problems — Module 5",
     "issuer": "WISER and Womanium Quantum Program",
     "date": "2025",
-    "image": "",
+    "image": "/assets/Module 5. Quantum Algorithms for Nonlinear Problems-1.png",
     "verifyUrl": "https://www.virtualbadge.io/certificate-validator?credential=93599de0-7ca7-4b0d-9a7a-2957707ce050"
   },
   {
     "title": "PennyLane Introduction to LCUs Challenge",
     "issuer": "PennyLane · Womanium · WISER",
     "date": "2025",
-    "image": "",
+    "image": "/assets/pennylane-certificate-womanium-wiser-lcu-2025-1.png",
     "verifyUrl": "https://pennylane.ai/profile/sazzad824?certificate=pennylane-certificate-womanium-wiser-lcu-2025"
   },
   {
     "title": "PennyLane A Simple Trotterization Challenge",
     "issuer": "PennyLane · Womanium · WISER",
     "date": "2025",
-    "image": "",
+    "image": "/assets/pennylane-certificate-womanium-wiser-trotterization-2025-1.png",
     "verifyUrl": "https://pennylane.ai/profile/sazzad824?certificate=pennylane-certificate-womanium-wiser-trotterization-2025"
   },
   {
     "title": "Basics of Quantum Information",
     "issuer": "IBM",
     "date": "2026",
-    "image": "",
+    "image": "/assets/Basics of Quantum Information-01.png",
     "verifyUrl": "https://www.credly.com/badges/eb49a11d-b9ec-43b6-87c0-0277305d55dc/public_url"
   }
 ],
