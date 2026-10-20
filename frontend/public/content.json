@@ -1,0 +1,126 @@
+{
+  "profile": {
+    "name": "Alex Rivera",
+    "tagline": "Computational Scientist",
+    "subtitle": "Numerical Methods · Scientific Computing · AI for Science",
+    "intro": "I build simulations that make abstract systems tangible — working across numerical methods, applied physics, and machine learning tools for research.",
+    "photoUrl": "/assets/profile-placeholder.jpg",
+    "resumeUrl": "/assets/resume.pdf",
+    "location": "Remote",
+    "stats": [
+      { "label": "Projects", "value": 12 },
+      { "label": "Certificates", "value": 6 },
+      { "label": "Simulations", "value": 20 },
+      { "label": "Teaching Roles", "value": 3 }
+    ]
+  },
+  "about": {
+    "who": "Graduate student in computational science, researching numerical methods for physical systems.",
+    "what": "Build simulations and numerical solvers in Python — from finite difference schemes to spectral element methods.",
+    "going": "Research at the intersection of computational physics, applied mathematics and AI for science.",
+    "tags": ["Numerical Methods", "Scientific Computing", "Python Simulation", "AI for Science", "Teaching", "Problem Solving"]
+  },
+  "skills": [
+    { "category": "Programming", "icon": "code", "items": ["Python", "NumPy", "SciPy", "Streamlit"] },
+    { "category": "Scientific Computing", "icon": "grid", "items": ["Matplotlib", "Jupyter", "Simulation Design", "Data Visualization"] },
+    { "category": "Physics", "icon": "atom", "items": ["Classical Mechanics", "Waves", "Electromagnetism", "High Energy Physics"] },
+    { "category": "AI & ML", "icon": "spark", "items": ["Prompt Design", "LLM Tooling", "AI Tutoring Tools"] },
+    { "category": "Developer Tools", "icon": "tool", "items": ["Git", "GitHub", "VS Code", "Linux"] },
+    { "category": "Numerical Methods", "icon": "sigma", "items": ["Finite Difference", "Spectral Methods", "Spectral Elements", "Quadrature"] }
+  ],
+  "projects": [
+    {
+      "id": "concept-lab",
+      "title": "Physics Concept Lab",
+      "description": "Ten interactive physics simulations with a built-in AI tutor that explains why each system behaves the way it does.",
+      "tags": ["Python", "Streamlit", "NumPy", "LLM"],
+      "image": "/assets/project-placeholder-1.jpg",
+      "githubUrl": "https://github.com/your-username/physics-concept-lab",
+      "liveUrl": "",
+      "featured": true
+    },
+    {
+      "id": "sem-solver",
+      "title": "Spectral Element Method Solver",
+      "description": "A from-scratch SEM solver for the 1D elastic wave equation, combining finite-element flexibility with spectral accuracy.",
+      "tags": ["Python", "Spectral Elements", "Elastic Waves"],
+      "image": "/assets/project-placeholder-2.jpg",
+      "githubUrl": "https://github.com/your-username",
+      "liveUrl": "",
+      "featured": false
+    },
+    {
+      "id": "gll-quadrature",
+      "title": "GLL Quadrature Integration",
+      "description": "Gauss-Lobatto-Legendre quadrature and Lagrange interpolation for high-accuracy numerical integration.",
+      "tags": ["Python", "NumPy", "Spectral Methods"],
+      "image": "/assets/project-placeholder-3.jpg",
+      "githubUrl": "https://github.com/your-username",
+      "liveUrl": "",
+      "featured": false
+    }
+  ],
+  "research": [
+    { "title": "Computational Physics", "icon": "target", "description": "Modelling physical systems numerically and turning equations into simulations." },
+    { "title": "High Energy Physics", "icon": "atom", "description": "Particle phenomenology and the computational tooling that supports it." },
+    { "title": "Scientific Computing", "icon": "grid", "description": "Reproducible, performant Python workflows for research-grade results." },
+    { "title": "Numerical Methods", "icon": "sigma", "description": "Finite difference, pseudospectral and spectral element schemes for PDEs." },
+    { "title": "AI for Science", "icon": "spark", "description": "LLMs and ML as instruments for explanation, discovery and teaching." }
+  ],
+  "experience": [
+    {
+      "period": "2025 — Present",
+      "title": "Graduate Researcher",
+      "org": "Department of Computational Science, Your University",
+      "description": "Coursework and research in numerical methods, mechanics and scientific programming."
+    },
+    {
+      "period": "2025",
+      "title": "AI Training Programme — Graduate",
+      "org": "National AI Programme",
+      "description": "Completed a national AI programme; built a capstone simulation + AI tutoring project."
+    },
+    {
+      "period": "2025 — Present",
+      "title": "Content Lead & Teaching Assistant",
+      "org": "Student Science Network",
+      "description": "Create learning content and support students across the network's programmes."
+    }
+  ],
+  "certificates": [
+    {
+      "title": "National AI Training Programme",
+      "issuer": "National AI Programme",
+      "date": "2026-07-29",
+      "image": "/assets/cert-placeholder-1.jpg",
+      "verifyUrl": ""
+    },
+    {
+      "title": "Prompting Essentials",
+      "issuer": "Coursera",
+      "date": "2026-06-10",
+      "image": "/assets/cert-placeholder-2.jpg",
+      "verifyUrl": ""
+    },
+    {
+      "title": "Differential Equations for Engineers",
+      "issuer": "Coursera",
+      "date": "2026-07-27",
+      "image": "/assets/cert-placeholder-3.jpg",
+      "verifyUrl": ""
+    }
+  ],
+  "achievements": [
+    { "title": "3.78 GPA", "icon": "star", "description": "Cumulative GPA in a computational science program." },
+    { "title": "AI Programme Selectee", "icon": "diamond", "description": "Selected for a competitive national AI training programme." },
+    { "title": "Conference Speaker", "icon": "mic", "description": "Confirmed speaker at a student science network webinar." }
+  ],
+  "contact": {
+    "email": "you@example.com",
+    "github": "your-username",
+    "githubUrl": "https://github.com/your-username",
+    "linkedin": "your-name",
+    "linkedinUrl": "https://www.linkedin.com/in/your-name/",
+    "quote": "Turning equations into interactive experiences through computation."
+  }
+}
