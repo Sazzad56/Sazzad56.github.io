@@ -7,9 +7,8 @@ export default function Hero({ profile }) {
       <div className="hero">
         <div>
           <div className="kicker">Hello, I'm</div>
-          <h1>
-            {name} — {tagline}
-          </h1>
+          <h1>{name}</h1>
+          <p className="hero-role">{tagline}</p>
           <p className="subtitle">{subtitle}</p>
           <p className="subtitle">{intro}</p>
           <div className="actions">
