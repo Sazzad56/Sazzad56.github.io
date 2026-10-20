@@ -57,7 +57,22 @@
     }
   ],
 
-  "projects": [],
+  "projects": [
+  {
+  "id": "quantum-project",
+  "title": "Quantum Information Simulation",
+  "description": "A computational study of quantum circuits and information protocols using Python and Qiskit.",
+  "tags": [
+    "Python",
+    "Qiskit",
+    "Quantum Computing"
+  ],
+  "image": "",
+  "githubUrl": "",
+  "liveUrl": "",
+  "featured": true
+}
+],
 
   "research": [
     {
