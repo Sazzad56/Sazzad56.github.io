@@ -57,8 +57,8 @@
     }
   ],
 
-  "projects": [
-   {
+ "projects": [
+  {
     "id": "ictp-open-quantum-systems",
     "title": "Quantum Simulation of Open Quantum Systems",
     "description": "Selected as a Summer Intern with the Abdus Salam International Centre for Theoretical Physics (ICTP), Physics Without Frontiers (PWF). My project focuses on quantum simulation of open quantum systems, exploring the intersection of quantum computing and theoretical physics. The project is mentored by Dr. Muhammad Asaduzzaman, Postdoctoral Researcher at North Carolina State University, USA.",
@@ -69,30 +69,10 @@
       "Theoretical Physics",
       "ICTP PWF"
     ],
-    "image": "/assets/ictp-pwf-logo.png",
+    "image": "/assets/ictp-pwf-project.png",
     "githubUrl": "",
     "liveUrl": "",
     "featured": true
-  },
-  {
-    "id": "project-1",
-    "title": "First Project",
-    "description": "Description...",
-    "tags": ["Python", "Qiskit"],
-    "image": "/assets/project1.png",
-    "githubUrl": "",
-    "liveUrl": "",
-    "featured": true
-  },
-  {
-    "id": "project-2",
-    "title": "Second Project",
-    "description": "Description...",
-    "tags": ["Python", "PennyLane"],
-    "image": "/assets/project2.png",
-    "githubUrl": "",
-    "liveUrl": "",
-    "featured": false
   }
 ],
 
