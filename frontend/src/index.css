@@ -16,7 +16,7 @@
 
   /* Layout */
   --nav-width: 220px;
-  --content-max: 760px;
+  --content-max: 980px;
   --grid-size: 28px;
 }
 
@@ -183,7 +183,7 @@ main {
   margin: 0 auto;
   padding: 5.5rem 1.5rem 4rem;
   display: grid;
-  grid-template-columns: 1.3fr 0.9fr;
+  grid-template-columns: 1.15fr 0.85fr;
   gap: 3rem;
   align-items: center;
 }
@@ -192,6 +192,11 @@ main {
   .hero {
     grid-template-columns: 1fr;
     padding-top: 3rem;
+  }
+
+  .hero-portrait {
+    max-width: 260px;
+    justify-self: start;
   }
 }
 
@@ -208,6 +213,13 @@ main {
   line-height: 1.12;
   margin: 0 0 1rem;
   font-weight: 600;
+}
+.hero-role {
+  font-family: var(--font-display);
+  font-size: clamp(1.35rem, 2.5vw, 1.9rem);
+  font-weight: 500;
+  color: var(--pine);
+  margin: -0.35rem 0 1.2rem;
 }
 
 .hero .subtitle {
@@ -256,18 +268,25 @@ main {
 
 .hero-portrait {
   position: relative;
+  width: 100%;
+  max-width: 320px;
+  justify-self: end;
 }
 
 .hero-portrait .frame {
   border: 1px solid var(--line);
   background: var(--paper-raised);
-  padding: 0.6rem;
+  padding: 0.7rem;
+  border-radius: 14px;
 }
 
 .hero-portrait img {
   width: 100%;
   display: block;
-  filter: grayscale(15%);
+  aspect-ratio: 4 / 5;
+  object-fit: cover;
+  object-position: center top;
+  border-radius: 9px;
 }
 
 .hero-portrait figcaption {
