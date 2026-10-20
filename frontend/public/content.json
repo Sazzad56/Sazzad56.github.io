@@ -71,7 +71,27 @@
   "githubUrl": "",
   "liveUrl": "",
   "featured": true
-}
+  },
+  {
+    "id": "project-1",
+    "title": "First Project",
+    "description": "Description...",
+    "tags": ["Python", "Qiskit"],
+    "image": "/assets/project1.png",
+    "githubUrl": "",
+    "liveUrl": "",
+    "featured": true
+  },
+  {
+    "id": "project-2",
+    "title": "Second Project",
+    "description": "Description...",
+    "tags": ["Python", "PennyLane"],
+    "image": "/assets/project2.png",
+    "githubUrl": "",
+    "liveUrl": "",
+    "featured": false
+  }
 ],
 
   "research": [
