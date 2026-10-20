@@ -12,8 +12,8 @@ export default function Hero({ profile }) {
           <p className="subtitle">{subtitle}</p>
           <p className="subtitle">{intro}</p>
           <div className="actions">
-            <a className="btn btn-primary" href="#projects">
-              View projects
+            <a className="btn btn-primary" href="#contact">
+              Contact me
             </a>
             {resumeUrl && (
               <a className="btn btn-secondary" href={resumeUrl} download>
