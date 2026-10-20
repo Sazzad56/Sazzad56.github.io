@@ -1,126 +1,155 @@
 {
   "profile": {
-    "name": "Alex Rivera",
-    "tagline": "Computational Scientist",
-    "subtitle": "Numerical Methods · Scientific Computing · AI for Science",
-    "intro": "I build simulations that make abstract systems tangible — working across numerical methods, applied physics, and machine learning tools for research.",
+    "name": "Sazzadul Islam",
+    "tagline": "Physics Graduate Student",
+    "subtitle": "Quantum Information · Quantum Communication · Quantum Simulation",
+    "intro": "I am a physics graduate student at the University of Chittagong with interests in quantum information, quantum communication, quantum simulation, and quantum technologies.",
     "photoUrl": "/assets/profile-sazzad.webp",
     "resumeUrl": "/assets/Sazzadul_Islam_CV.pdf"
-"location": "Remote",
-    "stats": [
-      { "label": "Projects", "value": 12 },
-      { "label": "Certificates", "value": 6 },
-      { "label": "Simulations", "value": 20 },
-      { "label": "Teaching Roles", "value": 3 }
+  },
+
+  "about": {
+    "who": "I am currently pursuing an M.Sc. in Physics at the University of Chittagong.",
+    "what": "My interests center on quantum information science, quantum computing, quantum communication, and computational approaches to physics.",
+    "going": "I aim to develop deeper research experience in quantum technologies and pursue advanced academic research.",
+    "tags": [
+      "Quantum Information",
+      "Quantum Communication",
+      "Quantum Simulation",
+      "Quantum Computing",
+      "Physics"
     ]
   },
-  "about": {
-    "who": "Graduate student in computational science, researching numerical methods for physical systems.",
-    "what": "Build simulations and numerical solvers in Python — from finite difference schemes to spectral element methods.",
-    "going": "Research at the intersection of computational physics, applied mathematics and AI for science.",
-    "tags": ["Numerical Methods", "Scientific Computing", "Python Simulation", "AI for Science", "Teaching", "Problem Solving"]
-  },
+
   "skills": [
-    { "category": "Programming", "icon": "code", "items": ["Python", "NumPy", "SciPy", "Streamlit"] },
-    { "category": "Scientific Computing", "icon": "grid", "items": ["Matplotlib", "Jupyter", "Simulation Design", "Data Visualization"] },
-    { "category": "Physics", "icon": "atom", "items": ["Classical Mechanics", "Waves", "Electromagnetism", "High Energy Physics"] },
-    { "category": "AI & ML", "icon": "spark", "items": ["Prompt Design", "LLM Tooling", "AI Tutoring Tools"] },
-    { "category": "Developer Tools", "icon": "tool", "items": ["Git", "GitHub", "VS Code", "Linux"] },
-    { "category": "Numerical Methods", "icon": "sigma", "items": ["Finite Difference", "Spectral Methods", "Spectral Elements", "Quadrature"] }
-  ],
-  "projects": [
     {
-      "id": "concept-lab",
-      "title": "Physics Concept Lab",
-      "description": "Ten interactive physics simulations with a built-in AI tutor that explains why each system behaves the way it does.",
-      "tags": ["Python", "Streamlit", "NumPy", "LLM"],
-      "image": "/assets/project-placeholder-1.jpg",
-      "githubUrl": "https://github.com/your-username/physics-concept-lab",
-      "liveUrl": "",
-      "featured": true
+      "category": "Programming",
+      "items": [
+        "C++",
+        "Python",
+        "JavaScript",
+        "HTML/CSS"
+      ]
     },
     {
-      "id": "sem-solver",
-      "title": "Spectral Element Method Solver",
-      "description": "A from-scratch SEM solver for the 1D elastic wave equation, combining finite-element flexibility with spectral accuracy.",
-      "tags": ["Python", "Spectral Elements", "Elastic Waves"],
-      "image": "/assets/project-placeholder-2.jpg",
-      "githubUrl": "https://github.com/your-username",
-      "liveUrl": "",
-      "featured": false
+      "category": "Quantum Computing",
+      "items": [
+        "Qiskit",
+        "PennyLane"
+      ]
     },
     {
-      "id": "gll-quadrature",
-      "title": "GLL Quadrature Integration",
-      "description": "Gauss-Lobatto-Legendre quadrature and Lagrange interpolation for high-accuracy numerical integration.",
-      "tags": ["Python", "NumPy", "Spectral Methods"],
-      "image": "/assets/project-placeholder-3.jpg",
-      "githubUrl": "https://github.com/your-username",
-      "liveUrl": "",
-      "featured": false
+      "category": "Scientific Computing",
+      "items": [
+        "NumPy",
+        "Matplotlib"
+      ]
+    },
+    {
+      "category": "Tools",
+      "items": [
+        "GitHub",
+        "VS Code",
+        "LaTeX",
+        "draw.io",
+        "Origin"
+      ]
     }
   ],
+
+  "projects": [],
+
   "research": [
-    { "title": "Computational Physics", "icon": "target", "description": "Modelling physical systems numerically and turning equations into simulations." },
-    { "title": "High Energy Physics", "icon": "atom", "description": "Particle phenomenology and the computational tooling that supports it." },
-    { "title": "Scientific Computing", "icon": "grid", "description": "Reproducible, performant Python workflows for research-grade results." },
-    { "title": "Numerical Methods", "icon": "sigma", "description": "Finite difference, pseudospectral and spectral element schemes for PDEs." },
-    { "title": "AI for Science", "icon": "spark", "description": "LLMs and ML as instruments for explanation, discovery and teaching." }
+    {
+      "title": "Quantum Communication",
+      "description": "Interested in quantum protocols and methods for transmitting information using quantum systems."
+    },
+    {
+      "title": "Quantum Information",
+      "description": "Interested in the theoretical and computational foundations of quantum information science."
+    },
+    {
+      "title": "Quantum Simulation",
+      "description": "Interested in using quantum systems and computational tools to study physical models."
+    },
+    {
+      "title": "Quantum Teleportation",
+      "description": "Interested in entanglement-based communication protocols and quantum information transfer."
+    }
   ],
+
   "experience": [
     {
       "period": "2025 — Present",
-      "title": "Graduate Researcher",
-      "org": "Department of Computational Science, Your University",
-      "description": "Coursework and research in numerical methods, mechanics and scientific programming."
+      "title": "M.Sc. in Physics",
+      "org": "University of Chittagong",
+      "description": "Graduate study in physics with interests in quantum information and computational physics."
     },
     {
-      "period": "2025",
-      "title": "AI Training Programme — Graduate",
-      "org": "National AI Programme",
-      "description": "Completed a national AI programme; built a capstone simulation + AI tutoring project."
+      "period": "2024",
+      "title": "Participant",
+      "org": "ICTP Physics Without Frontiers School on Quantum Field Theory",
+      "description": "Participated in an intensive program covering quantum field theory, path integrals, and modern research applications."
     },
     {
-      "period": "2025 — Present",
-      "title": "Content Lead & Teaching Assistant",
-      "org": "Student Science Network",
-      "description": "Create learning content and support students across the network's programmes."
+      "period": "2024",
+      "title": "Participant",
+      "org": "Glimpses into the Quantum World — Independent University Bangladesh",
+      "description": "Participated in a quantum-focused summer school covering quantum mechanics, open quantum systems, and topological phases of matter."
+    },
+    {
+      "period": "2024",
+      "title": "Research Course Participant",
+      "org": "Mahdy Research Academy",
+      "description": "Studied quantum information, quantum computing, quantum machine learning, and practical Qiskit programming."
+    },
+    {
+      "period": "2026",
+      "title": "Script Evaluator",
+      "org": "Bangladesh Physics Olympiad",
+      "description": "Evaluated answer scripts for the national physics talent search."
+    },
+    {
+      "period": "2023 — 2025",
+      "title": "Core Committee Member",
+      "org": "Chittagong University Scientific Society",
+      "description": "Helped organize national science carnivals and science outreach activities."
     }
   ],
+
   "certificates": [
     {
-      "title": "National AI Training Programme",
-      "issuer": "National AI Programme",
-      "date": "2026-07-29",
-      "image": "/assets/cert-placeholder-1.jpg",
+      "title": "WISER Summer Program 2026",
+      "issuer": "WISER",
       "verifyUrl": ""
     },
     {
-      "title": "Prompting Essentials",
-      "issuer": "Coursera",
-      "date": "2026-06-10",
-      "image": "/assets/cert-placeholder-2.jpg",
+      "title": "IBM Quantum Excellence Badge — QGSS 2025",
+      "issuer": "IBM Quantum",
       "verifyUrl": ""
     },
     {
-      "title": "Differential Equations for Engineers",
-      "issuer": "Coursera",
-      "date": "2026-07-27",
-      "image": "/assets/cert-placeholder-3.jpg",
+      "title": "WISER Global Quantum Badge 2025",
+      "issuer": "WISER",
+      "verifyUrl": ""
+    },
+    {
+      "title": "Womanium and WISER Quantum Program Challenges",
+      "issuer": "Womanium and WISER",
+      "verifyUrl": ""
+    },
+    {
+      "title": "Basics of Quantum Information",
+      "issuer": "Quantum Information Program",
       "verifyUrl": ""
     }
   ],
-  "achievements": [
-    { "title": "3.78 GPA", "icon": "star", "description": "Cumulative GPA in a computational science program." },
-    { "title": "AI Programme Selectee", "icon": "diamond", "description": "Selected for a competitive national AI training programme." },
-    { "title": "Conference Speaker", "icon": "mic", "description": "Confirmed speaker at a student science network webinar." }
-  ],
+
   "contact": {
-    "email": "you@example.com",
-    "github": "your-username",
-    "githubUrl": "https://github.com/your-username",
-    "linkedin": "your-name",
-    "linkedinUrl": "https://www.linkedin.com/in/your-name/",
-    "quote": "Turning equations into interactive experiences through computation."
+    "email": "sazzadul.islam824@gmail.com",
+    "github": "Sazzad56",
+    "githubUrl": "https://github.com/Sazzad56",
+    "linkedin": "Sazzadul Islam",
+    "linkedinUrl": "https://www.linkedin.com/in/sazzadul-islam/"
   }
 }
