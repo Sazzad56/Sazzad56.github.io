@@ -59,21 +59,32 @@
 
  "projects": [
   {
-    "id": "ictp-open-quantum-systems",
-    "title": "Quantum Simulation of Open Quantum Systems",
-    "description": "Selected as a Summer Intern with the Abdus Salam International Centre for Theoretical Physics (ICTP), Physics Without Frontiers (PWF). My project focuses on quantum simulation of open quantum systems, exploring the intersection of quantum computing and theoretical physics. The project is mentored by Dr. Muhammad Asaduzzaman, Postdoctoral Researcher at North Carolina State University, USA.",
-    "tags": [
-      "Open Quantum Systems",
-      "Quantum Simulation",
-      "Quantum Computing",
-      "Theoretical Physics",
-      "ICTP PWF"
-    ],
-    "image": "/assets/ictp-pwf-logo.png",
-    "githubUrl": "",
-    "liveUrl": "",
-    "featured": true
-  }
+  "id": "ictp-open-quantum-systems",
+  "title": "Quantum Simulation of Open Quantum Systems",
+  "period": "Summer 2026",
+  "role": "Summer Intern",
+  "organization": "The Abdus Salam International Centre for Theoretical Physics (ICTP) — Physics Without Frontiers",
+  "mentor": "Dr. Muhammad Asaduzzaman",
+  "mentorRole": "Postdoctoral Researcher, North Carolina State University, USA",
+  "description": "A research project focused on the quantum simulation of open quantum systems, exploring the intersection of quantum computing and theoretical physics.",
+  "details": [
+    "Study the theoretical foundations of open quantum systems and quantum simulation.",
+    "Explore computational approaches for simulating dissipative quantum dynamics.",
+    "Develop understanding of quantum-information and quantum-computing methods relevant to open-system problems.",
+    "Connect theoretical models with practical quantum-simulation workflows."
+  ],
+  "tags": [
+    "Open Quantum Systems",
+    "Quantum Simulation",
+    "Quantum Computing",
+    "Theoretical Physics",
+    "ICTP PWF"
+  ],
+  "image": "/assets/ictp-pwf-logo.png",
+  "githubUrl": "",
+  "liveUrl": "",
+  "featured": true
+}
 ],
 
   "research": [
