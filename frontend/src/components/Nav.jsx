@@ -3,6 +3,7 @@ const SECTIONS = [
   ["skills", "Skills"],
   ["projects", "Projects"],
   ["research", "Research"],
+  ["focus", "Current Focus"],
   ["experience", "Experience"],
   ["certificates", "Certificates"],
   ["contact", "Contact"],
