@@ -1,3 +1,5 @@
+import { useEffect, useState } from "react";
+
 const SECTIONS = [
   ["about", "About"],
   ["skills", "Skills"],
@@ -8,8 +10,21 @@ const SECTIONS = [
   ["certificates", "Certificates"],
   ["contact", "Contact"],
 ];
- 
+
 export default function Nav({ name, email }) {
+  const [theme, setTheme] = useState(() => {
+    return localStorage.getItem("theme") || "light";
+  });
+
+  useEffect(() => {
+    document.documentElement.setAttribute("data-theme", theme);
+    localStorage.setItem("theme", theme);
+  }, [theme]);
+
+  function toggleTheme() {
+    setTheme((current) => (current === "light" ? "dark" : "light"));
+  }
+
   return (
     <>
       <nav className="sidenav" aria-label="Section navigation">
@@ -17,6 +32,7 @@ export default function Nav({ name, email }) {
           <a href="#top" className="brand">
             {name?.toLowerCase().replace(/\s+/g, ".") || "portfolio"}
           </a>
+
           <ul>
             {SECTIONS.map(([id, label]) => (
               <li key={id}>
@@ -27,33 +43,58 @@ export default function Nav({ name, email }) {
             ))}
           </ul>
         </div>
-        {email && (
-          <a className="contact-mini" href={`mailto:${email}`}>
-            {email}
-          </a>
-        )}
+
+        <div className="nav-footer">
+          <button
+            className="theme-toggle"
+            type="button"
+            onClick={toggleTheme}
+            aria-label="Toggle light and dark mode"
+          >
+            {theme === "light" ? "☾ Dark mode" : "☀ Light mode"}
+          </button>
+
+          {email && (
+            <a className="contact-mini" href={`mailto:${email}`}>
+              {email}
+            </a>
+          )}
+        </div>
       </nav>
 
       <div className="mobile-nav">
         <a href="#top" className="brand">
           {name?.toLowerCase().replace(/\s+/g, ".") || "portfolio"}
         </a>
-        <select
-          aria-label="Jump to section"
-          onChange={(e) => {
-            if (e.target.value) window.location.hash = e.target.value;
-          }}
-          defaultValue=""
-        >
-          <option value="" disabled>
-            Jump to…
-          </option>
-          {SECTIONS.map(([id, label]) => (
-            <option key={id} value={id}>
-              {label}
+
+        <div className="mobile-nav-actions">
+          <button
+            className="theme-toggle theme-toggle-mobile"
+            type="button"
+            onClick={toggleTheme}
+            aria-label="Toggle light and dark mode"
+          >
+            {theme === "light" ? "☾" : "☀"}
+          </button>
+
+          <select
+            aria-label="Jump to section"
+            onChange={(e) => {
+              if (e.target.value) window.location.hash = e.target.value;
+            }}
+            defaultValue=""
+          >
+            <option value="" disabled>
+              Jump to…
             </option>
-          ))}
-        </select>
+
+            {SECTIONS.map(([id, label]) => (
+              <option key={id} value={id}>
+                {label}
+              </option>
+            ))}
+          </select>
+        </div>
       </div>
     </>
   );
