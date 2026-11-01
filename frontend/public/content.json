@@ -105,8 +105,8 @@
       "description": "Interested in entanglement-based communication protocols and quantum information transfer."
     }
   ],
-  
-"currentFocus": [
+
+  "currentFocus": [
   {
     "title": "Open Quantum Systems",
     "status": "Researching",
@@ -125,7 +125,7 @@
   {
     "title": "Quantum Information",
     "status": "Core Interest",
-    "description": "Building a deeper understanding of quantum information, communication, entanglement, and related computational methods."
+    "description": "Building deeper understanding of quantum information, communication, entanglement, and related computational methods."
   }
 ],
   
