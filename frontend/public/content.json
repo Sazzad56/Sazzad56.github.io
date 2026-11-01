@@ -105,7 +105,30 @@
       "description": "Interested in entanglement-based communication protocols and quantum information transfer."
     }
   ],
-
+  
+"currentFocus": [
+  {
+    "title": "Open Quantum Systems",
+    "status": "Researching",
+    "description": "Studying the theory and simulation of quantum systems interacting with an environment, with emphasis on dissipative dynamics."
+  },
+  {
+    "title": "Quantum Simulation",
+    "status": "Active Project",
+    "description": "Working on quantum simulation as part of my ICTP Physics Without Frontiers summer internship project."
+  },
+  {
+    "title": "Qiskit",
+    "status": "Learning & Building",
+    "description": "Developing practical experience with quantum circuits, simulation workflows, and quantum-information protocols using Qiskit."
+  },
+  {
+    "title": "Quantum Information",
+    "status": "Core Interest",
+    "description": "Building a deeper understanding of quantum information, communication, entanglement, and related computational methods."
+  }
+],
+  
   "experience": [
     {
       "period": "2025 — Present",
