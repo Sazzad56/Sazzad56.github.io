@@ -1,5 +1,3 @@
-import { useEffect, useState } from "react";
-
 const SECTIONS = [
   ["about", "About"],
   ["skills", "Skills"],
@@ -12,45 +10,6 @@ const SECTIONS = [
 ];
 
 export default function Nav({ name, email }) {
-  const [theme, setTheme] = useState("light");
-
-  useEffect(() => {
-    let initialTheme = "light";
-
-    try {
-      const savedTheme = window.localStorage.getItem("theme");
-
-      if (savedTheme === "light" || savedTheme === "dark") {
-        initialTheme = savedTheme;
-      } else if (
-        window.matchMedia &&
-        window.matchMedia("(prefers-color-scheme: dark)").matches
-      ) {
-        initialTheme = "dark";
-      }
-    } catch {
-      initialTheme = "light";
-    }
-
-    setTheme(initialTheme);
-  }, []);
-
-  useEffect(() => {
-    document.documentElement.setAttribute("data-theme", theme);
-
-    try {
-      window.localStorage.setItem("theme", theme);
-    } catch {
-      // Theme still works even if browser storage is unavailable.
-    }
-  }, [theme]);
-
-  function toggleTheme() {
-    setTheme((current) =>
-      current === "light" ? "dark" : "light"
-    );
-  }
-
   return (
     <>
       <nav className="sidenav" aria-label="Section navigation">
@@ -70,25 +29,11 @@ export default function Nav({ name, email }) {
           </ul>
         </div>
 
-        <div className="nav-footer">
-          <button
-            className="theme-toggle"
-            type="button"
-            onClick={toggleTheme}
-            aria-label="Toggle light and dark mode"
-          >
-            {theme === "light" ? "☾ Dark mode" : "☀ Light mode"}
-          </button>
-
-          {email && (
-            <a
-              className="contact-mini"
-              href={`mailto:${email}`}
-            >
-              {email}
-            </a>
-          )}
-        </div>
+        {email && (
+          <a className="contact-mini" href={`mailto:${email}`}>
+            {email}
+          </a>
+        )}
       </nav>
 
       <div className="mobile-nav">
@@ -96,36 +41,23 @@ export default function Nav({ name, email }) {
           {name?.toLowerCase().replace(/\s+/g, ".") || "portfolio"}
         </a>
 
-        <div className="mobile-nav-actions">
-          <button
-            className="theme-toggle theme-toggle-mobile"
-            type="button"
-            onClick={toggleTheme}
-            aria-label="Toggle light and dark mode"
-          >
-            {theme === "light" ? "☾" : "☀"}
-          </button>
+        <select
+          aria-label="Jump to section"
+          onChange={(e) => {
+            if (e.target.value) window.location.hash = e.target.value;
+          }}
+          defaultValue=""
+        >
+          <option value="" disabled>
+            Jump to…
+          </option>
 
-          <select
-            aria-label="Jump to section"
-            onChange={(e) => {
-              if (e.target.value) {
-                window.location.hash = e.target.value;
-              }
-            }}
-            defaultValue=""
-          >
-            <option value="" disabled>
-              Jump to…
+          {SECTIONS.map(([id, label]) => (
+            <option key={id} value={id}>
+              {label}
             </option>
-
-            {SECTIONS.map(([id, label]) => (
-              <option key={id} value={id}>
-                {label}
-              </option>
-            ))}
-          </select>
-        </div>
+          ))}
+        </select>
       </div>
     </>
   );
