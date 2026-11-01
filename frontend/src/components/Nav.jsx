@@ -41,12 +41,14 @@ export default function Nav({ name, email }) {
     try {
       window.localStorage.setItem("theme", theme);
     } catch {
-      // Theme still works even when browser storage is unavailable.
+      // Theme still works even if browser storage is unavailable.
     }
   }, [theme]);
 
   function toggleTheme() {
-    setTheme((current) => (current === "light" ? "dark" : "light"));
+    setTheme((current) =>
+      current === "light" ? "dark" : "light"
+    );
   }
 
   return (
@@ -79,7 +81,10 @@ export default function Nav({ name, email }) {
           </button>
 
           {email && (
-            <a className="contact-mini" href={`mailto:${email}`}>
+            <a
+              className="contact-mini"
+              href={`mailto:${email}`}
+            >
               {email}
             </a>
           )}
@@ -94,3 +99,34 @@ export default function Nav({ name, email }) {
         <div className="mobile-nav-actions">
           <button
             className="theme-toggle theme-toggle-mobile"
+            type="button"
+            onClick={toggleTheme}
+            aria-label="Toggle light and dark mode"
+          >
+            {theme === "light" ? "☾" : "☀"}
+          </button>
+
+          <select
+            aria-label="Jump to section"
+            onChange={(e) => {
+              if (e.target.value) {
+                window.location.hash = e.target.value;
+              }
+            }}
+            defaultValue=""
+          >
+            <option value="" disabled>
+              Jump to…
+            </option>
+
+            {SECTIONS.map(([id, label]) => (
+              <option key={id} value={id}>
+                {label}
+              </option>
+            ))}
+          </select>
+        </div>
+      </div>
+    </>
+  );
+}
