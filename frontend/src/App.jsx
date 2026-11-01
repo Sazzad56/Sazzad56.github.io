@@ -7,7 +7,6 @@ import Skills from "./components/Skills.jsx";
 import Research from "./components/Research.jsx";
 import Focus from "./components/Focus.jsx";
 import Experience from "./components/Experience.jsx";
-import Experience from "./components/Experience.jsx";
 import Certificates from "./components/Certificates.jsx";
 import Contact from "./components/Contact.jsx";
 
