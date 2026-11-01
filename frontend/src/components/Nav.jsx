@@ -41,7 +41,7 @@ export default function Nav({ name, email }) {
     try {
       window.localStorage.setItem("theme", theme);
     } catch {
-      // The theme still works even when browser storage is unavailable.
+      // Theme still works even when browser storage is unavailable.
     }
   }, [theme]);
 
