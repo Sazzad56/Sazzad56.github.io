@@ -8,7 +8,7 @@ const SECTIONS = [
   ["certificates", "Certificates"],
   ["contact", "Contact"],
 ];
-
+ 
 export default function Nav({ name, email }) {
   return (
     <>
