@@ -591,6 +591,134 @@ main {
   font-size: 0.92rem;
 }
 
+/* --- Current Focus --- */
+
+.section-kicker {
+  font-family: var(--font-mono);
+  font-size: 0.76rem;
+  color: var(--pine);
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  margin-bottom: 0.35rem;
+}
+
+.focus-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1.25rem;
+}
+
+.focus-card {
+  position: relative;
+  border: 1px solid var(--line);
+  background: var(--paper-raised);
+  padding: 1.4rem;
+  transition:
+    transform 0.2s ease,
+    border-color 0.2s ease,
+    box-shadow 0.2s ease;
+}
+
+.focus-card:hover {
+  transform: translateY(-4px);
+  border-color: var(--pine);
+  box-shadow: 0 10px 28px rgba(27, 36, 48, 0.08);
+}
+
+.focus-status {
+  display: inline-block;
+  margin-bottom: 0.8rem;
+  padding: 0.25rem 0.55rem;
+  border: 1px solid var(--pine);
+  font-family: var(--font-mono);
+  font-size: 0.68rem;
+  color: var(--pine);
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+
+.focus-card h3 {
+  font-family: var(--font-display);
+  font-size: 1.2rem;
+  margin: 0 0 0.55rem;
+}
+
+.focus-card p {
+  margin: 0;
+  color: var(--ink-soft);
+  font-size: 0.92rem;
+}
+
+@media (max-width: 650px) {
+  .focus-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+/* --- Current Focus --- */
+
+.section-kicker {
+  font-family: var(--font-mono);
+  font-size: 0.76rem;
+  color: var(--pine);
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  margin-bottom: 0.35rem;
+}
+
+.focus-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1.25rem;
+}
+
+.focus-card {
+  position: relative;
+  border: 1px solid var(--line);
+  background: var(--paper-raised);
+  padding: 1.4rem;
+  transition:
+    transform 0.2s ease,
+    border-color 0.2s ease,
+    box-shadow 0.2s ease;
+}
+
+.focus-card:hover {
+  transform: translateY(-4px);
+  border-color: var(--pine);
+  box-shadow: 0 10px 28px rgba(27, 36, 48, 0.08);
+}
+
+.focus-status {
+  display: inline-block;
+  margin-bottom: 0.8rem;
+  padding: 0.25rem 0.55rem;
+  border: 1px solid var(--pine);
+  font-family: var(--font-mono);
+  font-size: 0.68rem;
+  color: var(--pine);
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+
+.focus-card h3 {
+  font-family: var(--font-display);
+  font-size: 1.2rem;
+  margin: 0 0 0.55rem;
+}
+
+.focus-card p {
+  margin: 0;
+  color: var(--ink-soft);
+  font-size: 0.92rem;
+}
+
+@media (max-width: 650px) {
+  .focus-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
 /* --- Experience timeline --- */
 .timeline {
   border-left: 1px solid var(--line);
