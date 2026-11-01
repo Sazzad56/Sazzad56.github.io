@@ -4,8 +4,9 @@ import Nav from "./components/Nav.jsx";
 import Hero from "./components/Hero.jsx";
 import About from "./components/About.jsx";
 import Skills from "./components/Skills.jsx";
-import Projects from "./components/Projects.jsx";
 import Research from "./components/Research.jsx";
+import Focus from "./components/Focus.jsx";
+import Experience from "./components/Experience.jsx";
 import Experience from "./components/Experience.jsx";
 import Certificates from "./components/Certificates.jsx";
 import Contact from "./components/Contact.jsx";
@@ -41,6 +42,7 @@ export default function App() {
         <Skills skills={data.skills} />
         <Projects projects={data.projects} />
         <Research research={data.research} />
+        <Focus items={data.currentFocus} />
         <Experience experience={data.experience} />
         <Certificates certificates={data.certificates} />
         <Contact contact={data.contact} />
